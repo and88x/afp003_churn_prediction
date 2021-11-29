@@ -1,0 +1,12 @@
+1.- Install conda or miniconda
+2.- Go to the "Hackathon" folder
+3.- Open the terminal (cmd, Power Shell, etc) and create an environment
+    $> conda create -n hackathon python=3.8.11 pip
+4.- Activate the environment
+    $> conda activate hackathon
+5.- Install py-make
+    $> pip install py-make
+6.- Install all packages using pymake
+    $> pymake install
+7.- Run the notebooks using pymake
+    $> pymake run
